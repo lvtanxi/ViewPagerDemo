@@ -40,5 +40,13 @@
             android:onClick="toFlycoTabLayout"
             android:text="FlycoTabLayout_Lib"
             android:textColor="@android:color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:onClick="tokongjian"
+            android:text="kongjian"
+            android:textColor="@android:color/white"/>
     </LinearLayout>
 </ScrollView>

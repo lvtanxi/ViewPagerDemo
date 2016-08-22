@@ -21,6 +21,7 @@
         <activity android:name=".flyco.CommonTabActivity"/>
         <activity android:name=".flyco.SegmentTabActivity"/>
         <activity android:name=".flyco.SlidingTabActivity"/>
+        <activity android:name=".kongjian.KongjianAct"/>
     </application>
 
 </manifest>

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.lv.viewpagerdemo.flyco.SimpleHomeActivity;
+import com.lv.viewpagerdemo.kongjian.KongjianAct;
 import com.lv.viewpagerdemo.tab.TabVpAct;
 import com.lv.viewpagerdemo.tab.TabVpButtomAct;
 
@@ -26,5 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void toFlycoTabLayout(View view) {
         SimpleHomeActivity.startSimpleHomeActivity(this);
+    }
+    public void tokongjian(View view) {
+        KongjianAct.startKongjianAct(this);
     }
 }
