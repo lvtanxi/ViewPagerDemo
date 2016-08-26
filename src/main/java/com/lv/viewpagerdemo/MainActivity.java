@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.lv.viewpagerdemo.duolingo.DuolingoAct;
 import com.lv.viewpagerdemo.flyco.SimpleHomeActivity;
 import com.lv.viewpagerdemo.kongjian.KongjianAct;
 import com.lv.viewpagerdemo.tab.TabVpAct;
@@ -30,5 +31,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void tokongjian(View view) {
         KongjianAct.startKongjianAct(this);
+    }
+
+    public void toDuolingo(View view) {
+        DuolingoAct.startDuolingoAct(this);
     }
 }
