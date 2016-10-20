@@ -23,6 +23,7 @@
         <activity android:name=".flyco.SlidingTabActivity"/>
         <activity android:name=".kongjian.KongjianAct"/>
         <activity android:name=".duolingo.DuolingoAct"/>
+        <activity android:name=".viewpagergallery.ViewPagerGallery"/>
     </application>
 
 </manifest>
